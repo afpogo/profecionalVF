@@ -12,10 +12,19 @@
         max-width: 100%;
         vertical-align: top;
       }
+      img#responsive {
+        display: none;
+      }
+      @media screen and (max-width: 768px) {
+        img#responsive {
+          display: block;
+        }
+      }
     </style>
   </head>
   <body>
     <header>
+      <img src="imagenes/images/invie-responsive.webp" alt="Invie-Responsive" id="responsive">
       <img src="imagenes/images/header.webp" alt="Imagen Header">
       <img src="imagenes/images/hero.webp" alt="Imagen Hero">
       <img src="imagenes/images/acustica.webp" alt="Imagen Acustica">
